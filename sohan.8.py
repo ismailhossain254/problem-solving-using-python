@@ -1,6 +1,6 @@
 num = int(input("énter a number:"))
-reverse = 0
+reversed = 0
 while num > 0:
-    reverse = (reverse*10) + num % 10
+    reversed = (reversed*10) + num % 10
     num = num//10
-print(reverse)
+print(reversed)
