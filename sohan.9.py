@@ -6,6 +6,6 @@ while num > 0:
    num = num // 10
 print(reversed)
 if x == reversed:
-    print("palindrome number")
+    print("Its a palindrome number")
 else:
     print(" not a palindrome number")
